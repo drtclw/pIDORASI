@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Квесты для ТВ</title>
+  <meta name="viewport" content="width=3840, initial-scale=1.0" />
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: #000;
+      color: #ffffff;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      font-size: 2.5rem;
+      width: 100vw;
+      height: 100vh;
+      box-sizing: border-box;
+    }
+    .container {
+      max-width: 3600px;
+      margin: 0;
+      padding: 4rem 5vw;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;       /* прижать к левому краю */
+      justify-content: flex-start;   /* прижать к левому краю */
+      min-height: 100vh;
+      text-align: left;              /* выравнивание текста слева */
+    }
+    h1 {
+      color: #ffe600;
+      font-size: 4rem;
+      margin-bottom: 3rem;
+      letter-spacing: 0.1em;
+      width: 100%;
+    }
+    .quest-list {
+      width: 100%;
+      max-width: 3500px;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      text-align: left;
+    }
+    .quest {
+      background: rgba(40, 40, 40, 0.85);
+      border-radius: 1.5rem;
+      padding: 2.5rem 3rem;
+      box-shadow: 0 0 30px #111;
+      font-size: 2.5rem;
+      transition: background 0.2s;
+    }
+    .quest strong {
+      color: #ffee00;
+      font-size: 3rem;
+    }
+    @media (max-width: 2000px) {
+      html, body { font-size: 1.5rem; }
+      h1 { font-size: 2.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Квесты недели</h1>
+    <div class="quest-list">
+      <div class="quest">
+        <strong>Квест 1:</strong> Сделай 20 киллов в Fortnite — получи <b>2 часа</b> игрового времени!
+      </div>
+      <div class="quest">
+        <strong>Квест 2:</strong> Победи 5 раз подряд в Fall Guys — получи <b>1,5 часа</b>.
+      </div>
+      <div class="quest">
+        <strong>Квест 3:</strong> Заверши 10 гонок в Rocket League — получи <b>1 час</b>.
+      </div>
+      <div class="quest">
+        <strong>Квест 4:</strong> Найди и открой 3 сундука в Minecraft — получи <b>30 минут</b>.
+      </div>
+      <div class="quest">
+        <strong>Квест 5:</strong> Пройди ежедневное задание в Apex Legends — получи <b>1 час</b>.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
